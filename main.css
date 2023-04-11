@@ -6,11 +6,12 @@
 }
 
 body {
-    background-color: #e7e7e7;
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
 header {
     display: flex;
+    color: white;
     align-items: center;
     margin-bottom: 40px;
 }
@@ -37,22 +38,22 @@ body {
 
 form {
     display: flex;
-    max-width: 640px;
     width: 100%;
     justify-content: space-between;
     margin-bottom:  56px;
 }
 
 form input {
+    display: flex;
+    width: 40%;
     background-color: white;
     font-size: 24px;
     border: none;
-    border-bottom: 2px solid #000;
     padding: 8px;
 }
 
 form button {
-    background-color: #009432;
+    background-color: red;
     font-size: 24px;
     color: white;
     font-weight: bold;
@@ -66,36 +67,21 @@ table {
 }
 
 table th {
-    border-bottom: 2px solid #000;
+    color: white;
+    border-bottom: 2px solid white;
     padding: 16px;
     font-size: 24px;
     font-weight: bold;
 }
 
 table td {
+    color: white;
+    border-bottom: 2px solid white;
     padding: 16px 0px;
     text-align: center;
     font-size: 18px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-
 }
 
 table td img {
     height: 30px;
-}
-
-.resultado {
-    padding: 8px;
-    font-weight: bold;
-    color: #fff;
-    background-color: #000;
-    border-radius: 3px;
-}
-
-.aprovado {
-    background-color: #009432;
-}
-
-.reprovado {
-    background-color: red;
 }
